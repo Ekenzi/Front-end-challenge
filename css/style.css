@@ -1,0 +1,122 @@
+*{
+    box-sizing: border-box;
+    
+}
+body{
+    max-width: 500px;
+    margin: auto;
+    margin-top: 200px;
+    margin-bottom: 200px;
+    background-image: url(https://images.unsplash.com/photo-1487700160041-babef9c3cb55?ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&ixlib=rb-1.2.1&auto=format&fit=crop&w=1035&q=80);
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: cover;
+
+}
+.card{
+    margin: auto;
+    background: whitesmoke;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    border-radius: 10px;
+    padding-top: 20px;
+    padding-left: 50px;
+    padding-right: 30px;
+    padding-bottom: 20px;
+    width: 700px;
+    height: 500px;
+    box-shadow: 0 1px 5px #2d2e3d34;
+
+}
+.gain{
+    text-align: left;
+    line-height: 1.5;
+    color: grey;
+    font-weight: 500;
+    
+}
+h1,h2,h3,h4,p,span,b{
+    font-family: 'Karla', sans-serif;
+}
+#join{
+    font-weight: 900;
+    color: #2bb3b1;
+}
+#days{
+    font-weight: 500;
+    color: #bfdf32;
+}
+section{
+    display: flex;
+
+}
+.monthly{
+    background-color: #2bb3b1;
+    width: 57%;
+    height: 293px;
+    margin-top: 20px;
+    margin-bottom: 0px;
+    margin-left: -50px;
+    margin-right: -2px;
+    padding-top: 40px;
+    padding-left: 46px;
+    border-bottom-left-radius: 10px;
+    float: left;
+}
+.whyus{
+    background-color: #4abebd;
+    width: 57%;
+    height: 293px;
+    margin-top: 20px;
+    margin-bottom: 0px;
+    margin-left: -4px;
+    margin-right: -50px;
+    padding-top: 36px;
+    padding-left: 53px;
+    border-bottom-right-radius: 10px;
+    float: right;
+}
+#monthly{
+    font-weight: 700;
+    color: white;
+}
+ span{
+     text-align: initial;
+     color: white;
+     font-weight: 200;
+     
+ }
+ span b { 
+     font-size: 40px;
+     font-weight: 700; 
+    }
+p{
+    font-weight: 500;
+    color: white;
+}
+.benefits{
+    font-weight: 400;
+    line-height: 1.5;
+    opacity: 70%;
+}
+#why{
+    font-weight: 800;
+    color: white;
+}
+.attribution, a {
+    color: black;
+    font-weight: 100;
+    font-style: italic;
+    text-decoration: unset;
+}
+#click{
+  border: none;
+  border-radius: 10px;
+  color: white;
+  padding: 15px 32px;
+  text-align: center;
+  font-size: 16px;
+  width: 243px;
+  background-color: #bfdf32;
+  box-shadow:0 1px 10px #0f4e4d;
+}
